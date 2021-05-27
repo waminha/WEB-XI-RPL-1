@@ -1,9 +1,22 @@
 body {
-  background-color: #ffc107;
+  background-color: #c9c6be;
   height: 9999px;
 }
 
 /* navbar */
+
+.navbar{
+  position: fixed;
+  width: 100%;
+}
+
+.navbar img {
+  width: 35px;
+}
+
+.navbar-nav{
+  margin-left: 70%;
+}
 
 /* jumbotron */
 .jumbotron {
@@ -29,50 +42,80 @@ body {
   margin-top: 40px;
 }
 
-/* konten */
-.satu {
-  background-color: rgb(240, 229, 133);
-  margin-top: 30px;
-  border-radius: 10px;
-}
+/* about */
 
-.satu img {
-  border-radius: 50%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.satu p {
-  padding: 10px;
-}
-
-.container h2 {
-  color: white;
+.about{
   margin-top: 10px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  font-size: 25px;
+}
+.about h1{
+  font-size: 30px;
+  font-family: 'Limelight';
+  color: #474743;
+}
+.about img{
+width: 100%;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
 }
 
-.container .satu {
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+/* KELAS */
+.kelas{
+  background-color: #273036;
+min-height: 150px;
 }
 
-.container .btn {
-  margin-bottom: 0;
-  margin-right: 0;
+.kelas .kata {
+  color: white;
 }
 
-.container .card {
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+.kelas h1{
+  color: white;
+  
 }
 
-.container .card img {
-  height: 225px;
-  width: 100%;
-  padding: 5px;
+.kontak .container{
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
 }
 
-.overlay {
+.kontak img{
+  width: 70px;
+  box-shadow: none;
+}
+
+/* konten */
+.konten{
+  
+  margin-top: -50px;
+}
+.konten .container {
+margin-top: 40px;
+padding: 5px;
+ width: 250px;
+ height: 500px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ overflow: scroll;
+ margin-right: 2px;
+ 
+} 
+
+.konten .container div{
+  width: 250px;
+  height: 200px;
+  background-image: url(image/pria.jpg);
+ background-size: cover;
+  box-sizing: border-box;
+  margin: 2px;
+}
+
+
+  /* profil guru */
+}
+
+/* .overlay {
   width: 0;
   height: 0;
   overflow: hidden;
@@ -83,49 +126,10 @@ body {
   z-index: 2;
   text-align: center;
   color: white;
-}
-.overlay:target {
+} */
+/* .overlay:target {
   bottom: 0;
   right: 0;
   width: 100%;
   height: 100%;
-}
-
-.overlay img {
-  width: 150px;
-  height: 150px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 50%;
-}
-
-.overlay table {
-  color: black;
-  border-left: 2px solid yellow;
-  background-color: white;
-  margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-}
-
-.lengkap {
-  text-align: center;
-  background-color: wheat;
-  width: 40%;
-}
-
-.overlay:target img {
-  animation: zoom;
-}
-
-/* animasi */
-@keyframes zoom {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
+} */
