@@ -12,11 +12,12 @@
 .jumbotron {
   background-image: url(image/tamanna-rumee-WArdwk7Lv_Y-unsplash.jpg);
   background-position-y: center;
+  background-position-x: center;
   background-size: cover;
   height: 450px;
   margin-top: 0px;
+  border-bottom: 3px solid black;
 }
-
 /* about */
 
 .about {
@@ -25,27 +26,12 @@
 h1 {
   font-size: 25px;
   font-family: "Poppins", sans-serif;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .about img {
   width: 50%;
 }
 p {
   font-family: "Poppins", sans-serif;
-}
-
-/* KELAS */
-.kelas {
-  background-color: #273036;
-  min-height: 150px;
-}
-
-.kelas .kata {
-  color: white;
-}
-
-.kelas h1 {
-  color: white;
 }
 
 .kontak .container {
@@ -86,16 +72,31 @@ p {
 
 /* profil guru */
 .guru {
-  background-color: #273036;
-  color: white;
-  min-height: 400px;
+  background-color: rgb(0, 79, 168);
+  color: black;
 }
 .table {
-  color: white;
+  color: black;
 }
 .guru img {
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
 }
 
 /* .overlay {
@@ -121,7 +122,6 @@ p {
 @media (min-width: 576px) {
   .jumbotron {
     margin-top: -65px;
-    background-position-x: center;
   }
 
   .about img {
