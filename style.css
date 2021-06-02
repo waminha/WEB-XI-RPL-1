@@ -65,29 +65,22 @@ p {
 }
 
 /* profil */
-.guru {
-  background-color: rgb(227, 232, 238);
-}
-.guru img {
-  border-radius: 50%;
-  width: 100px;
-  border: 3px solid black;
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
 }
 
 h2 {
   font-size: 25px;
   font-family: "Poppins", sans-serif;
 }
+
 h3 {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   color: white;
-}
-
-.footer {
-  padding: 10px;
-  text-align: center;
-  background-color: black;
 }
 
 /* .overlay {
