@@ -10,8 +10,10 @@ body {
   margin-left: 75%;
 }
 .nav-link {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
+
 /* home*/
 
 .home {
@@ -22,11 +24,17 @@ body {
 .home img {
   width: 50%;
 }
-p {
-  font-family: "Poppins", sans-serif;
+.home p {
+  font-family: "Roboto", sans-serif;
   font-size: 50px;
   color: black;
+  font-weight: 100;
 }
+
+.home p span {
+  font-weight: 300;
+}
+
 .row {
   padding-top: 20px;
 }
@@ -49,7 +57,7 @@ p {
 }
 .about h1 {
   font-size: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .about p {
@@ -104,12 +112,28 @@ h3 {
 
 /* versi lain */
 @media (min-width: 576px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-bottom: -8px;
+  }
+
+  .nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+  }
+
   .about img {
     width: 80%;
   }
 
-  p {
+  .home p {
     font-size: 75px;
+    font-weight: 100;
+  }
+
+  .home p span {
+    font-weight: 300;
   }
 
   .about p {
